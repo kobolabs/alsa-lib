@@ -69,7 +69,7 @@ if [ "$python2" = "yes" ]; then
 fi
 
 touch ltconfig
-libtoolize --force --copy --automake
+glibtoolize --force --copy --automake
 aclocal $ACLOCAL_FLAGS
 autoheader
 automake --foreign --copy --add-missing

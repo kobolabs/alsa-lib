@@ -1,0 +1,1 @@
+./configure --host=arm-linux --with-sysroot=/chroot --prefix= --with-pcm-plugins=all --with-ctl-plugins=all --with-plugindir=/lib/alsa-lib --with-configdir=/etc --datarootdir=/etc --disable-thread-safety
